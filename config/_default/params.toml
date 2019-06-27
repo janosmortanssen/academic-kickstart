@@ -5,7 +5,7 @@
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
 color_theme = "default"
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
@@ -43,31 +43,30 @@ privacy_pack = false
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 ############################
 ## Contact Widget setup   ##
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
-address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+email = "jonas1@kth.se"
+phone = "+46-70-1909798"
+address = "KTH Royal Institute of Technology<br> School of Electrical Engineering and Computer Science<br> Decision and Control Systems<br> Malvinas väg 10, 100 44 Stockholm, Sweden<br> Q-building, floor 6, room A:611"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00<br>
-                  Wednesday 09:00 to 10:00"""
+office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
+  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
@@ -86,12 +85,11 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
+map = 2
 map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
+latitude = "59.349701"
+longitude = "18.066927"
 zoom = 15
-
 ############################
 ## Plugins                ##
 ############################
@@ -113,17 +111,17 @@ gravatar = false
 menu_align_right = false
 
 # Show estimated reading time for posts? (true/false)
-reading_time = true
+reading_time = false
 
 # Display comment count (if commenting enabled in config.toml)? (true/false)
-comment_count = true
+comment_count = false
 
 # Display next/previous section pager? (true/false)
 section_pager = false
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
-sharing = true
+sharing = false
 
 # Configuration of publication pages.
 [publications]
@@ -151,7 +149,7 @@ sharing = true
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 0
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
